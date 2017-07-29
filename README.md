@@ -1,2 +1,2 @@
 # PythonLearn
-*The crack about learning Python language.*
+*The track about learning Python language.*
