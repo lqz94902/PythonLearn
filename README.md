@@ -1,2 +1,2 @@
 # PythonLearn
-*The track about learning Python language.*
+*The track of learning Python language.*
