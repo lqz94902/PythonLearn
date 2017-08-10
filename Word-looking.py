@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+#-*-coding:utf-8 -*-
 import json
 
 with open("Lib.txt" , "rt" ,encoding = "UTF-8") as file :
