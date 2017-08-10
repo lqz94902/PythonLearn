@@ -3,8 +3,8 @@
 
 from urllib import request
 import re           #正则表达式库
-url="http://www.yy8844.cn/ting/mvovc/cciimc.shtml"
 
+url=input('请输入音乐巴士链接：')
 #发送http请求
 response=request.urlopen(url)
 html=response.read().decode('GBK')
@@ -26,7 +26,7 @@ print("%s下载完成！"%music_name)
 
 #下载歌词
 def lrc():
-    music_word0=re.findall(r'<div class="textgeci" id="showtext">(.*?)</div>',html,re.S)[0]
+    music_word0=re.findall(r'<div class="textgeci" id="showtext">(.*?)</div>',html,re.S)[0]     #re.S用于多换行的识别
     music_word=music_word0.replace('<BR>','')
     print(music_word)
     with open('%s.txt' % music_name,'w') as f:
