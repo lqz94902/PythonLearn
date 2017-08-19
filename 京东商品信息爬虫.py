@@ -3,7 +3,7 @@
 # @Time    : 2017/8/18 11:48
 # @Author  : Jonas
 # @Site    :
-# @File    : jd.py
+# @File    : 京东商品信息爬虫.py
 # @Software: PyCharm
 # @Verdion : 1.0
 
